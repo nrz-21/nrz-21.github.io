@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full height for vertical centering */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+.intext {
+    color: #e0e;
+}
+.subtext {
+    font-weight: 100;
+    color: #e4e4e7;
+    text-decoration: none;
+    margin-right: 15px;
+}
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+p {
+    font-weight: 100;
+    font-size: 0.9rem;
+    margin: 5px 0; /* Reduced margin between paragraphs */
+}
+.container {
+    padding: 30px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align items to the left */
+}
+.profile-header {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px; /* Space below the header */
+}
+h1 {
+    font-weight: 300;
+    color: #eee;
+    margin: 0 0 0 10px; /* Adjust margin for spacing */
+}
+.profile-image {
+    width: 100px; /* Set width for the circular image */
+    height: 100px; /* Set height for the circular image */
+    border-radius: 50%; /* Make it circular */
+    border: 3px solid #e4e4e7; /* Add border */
+    object-fit: cover; /* Crop the image to fit */
+}
+.footer {
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    opacity: .8;
+}
+.onion-link {
+    position: fixed;
+    bottom: 10px; 
+    right: 10px;
+    color: rgba(255, 255, 255, 0.5); 
+    text-decoration: none; 
+    font-size: 16px; 
+}
